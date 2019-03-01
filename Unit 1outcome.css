@@ -1,0 +1,70 @@
+*{
+    padding:0px;
+    margin:0px;
+}*
+body{
+    background-color:lightblue;
+    background-image: url("Squirtle.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position:98% 12%;
+    background-attachment: fixed;
+}
+h1 {
+    background-color:yellowgreen;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-top-color: black;
+    border-radius: 50px;
+}
+h2{
+    text-align: center;
+    background-color:yellowgreen;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+.post{
+    background-color: green;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px; 
+}
+.post p {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.post:hover{
+    background-color: blueviolet;
+}
+.head h2:hover{
+    background-color:pink;
+}
+h1:hover{
+    background-color: wheat;
+}
+.head h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-top-color: black;
+    border-radius: 10px;
+}
+.head{
+    padding-top: 10px;
+}
+.post li{
+    margin-left: 20px;
+}
